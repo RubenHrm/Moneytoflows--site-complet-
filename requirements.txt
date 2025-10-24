@@ -1,4 +1,42 @@
+# Framework principal
 Flask==2.3.3
-Werkzeug==2.3.6
-gunicorn==22.0.0
-python-dotenv==1.0.0
+Werkzeug==3.0.1
+
+# Gestion de la base de données
+Flask-SQLAlchemy==3.1.1
+SQLAlchemy==2.0.23
+
+# Pour la gestion des migrations (mise à jour de la base)
+Flask-Migrate==4.0.5
+
+# Pour la gestion des formulaires (inscription, connexion, retraits, etc.)
+Flask-WTF==1.2.1
+WTForms==3.1.2
+
+# Pour le hashage des mots de passe et la sécurité
+Flask-Bcrypt==1.0.1
+
+# Pour l’envoi d’e-mails (ex : assistance)
+Flask-Mail==0.9.1
+
+# Pour les sessions et la gestion des utilisateurs
+Flask-Login==0.6.3
+
+# Serveur de production
+gunicorn==21.2.0
+
+# Pour la compatibilité avec les environnements cloud
+python-dotenv==1.0.1
+
+# Pour les requêtes HTTP (si ton site fait des appels externes)
+requests==2.31.0
+
+# Pour le formatage JSON et API
+Flask-RESTful==0.3.10
+
+# Pour les validations de champs et contrôles
+email-validator==2.1.1
+
+# Pour PostgreSQL ou MySQL (selon ce que tu as choisi dans Deployra)
+psycopg2-binary==2.9.9
+mysqlclient==2.2.4
