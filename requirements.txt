@@ -1,40 +1,5 @@
-# Framework principal
-Flask==2.3.3
-Werkzeug==3.0.1
-
-# Gestion de la base de données
-Flask-SQLAlchemy==3.1.1
-SQLAlchemy==2.0.23
-
-# Migration de base de données
-Flask-Migrate==4.0.5
-
-# Formulaires et validations
-Flask-WTF==1.2.1
-WTForms==3.1.2
-email-validator==2.1.1
-
-# Sécurité et hashage
-Flask-Bcrypt==1.0.1
-
-# Sessions, login
-Flask-Login==0.6.3
-
-# Envoi d’e-mails
-Flask-Mail==0.9.1
-
-# Requêtes HTTP
-requests==2.31.0
-
-# API REST
-Flask-RESTful==0.3.10
-
-# Environnement
-python-dotenv==1.0.1
-
-# Serveur web
+Flask==3.0.3
+Werkzeug==3.0.4
+Jinja2==3.1.4
+itsdangerous==2.2.0
 gunicorn==21.2.0
-
-# Drivers base de données
-psycopg2-binary==2.9.9    # pour PostgreSQL
-PyMySQL==1.1.0            # pour MySQL (remplace mysqlclient)
